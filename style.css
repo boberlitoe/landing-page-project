@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero-section {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
