@@ -2,11 +2,47 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    font-family: "Roboto";
+    min-height: 100vh;
 }
 
-.header, .hero-section {
-    background-color: #1f2937;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header, .hero-section, .left-hero, .right-hero {
+    background-color: hsl(215, 28%, 17%);
     color: white;
     display: flex;
-    flex-direction: row;
 }
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hero-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 30px;
+}
+
+.left-hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.right-hero {
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;
+}
+ 
